@@ -1,0 +1,8 @@
+*.pth
+*.txt
+*.pyc
+*.h
+*.cu
+/codes/v2v4real_plugin/opencood/logs/
+/codes/opencood_plugin/opencood/logs/
+/codes/ab3dmot_plugin/AB3DMOT_plugin/results/
