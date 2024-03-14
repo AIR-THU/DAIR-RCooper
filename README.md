@@ -37,33 +37,35 @@ After downloading the data, please put the data in the following structure:
 
 ## Quick Start
 
-For detection training & inference, you can find instruction in docs/corridor_scene or docs/intersection_scene in detail.
+For detection training & inference, you can find instructions in [docs/corridor_scene](docs/corridor_scene) or [docs/intersection_scene](docs/intersection_scene) in detail.
 
-For Tracking, you can find instruction in docs/tracking.md in detail.
+For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
+
+All the checkpoints are released in link in the tabels below.
 
 ## Benchmark
 ### Results of Cooperative 3D object detection for corridor scenes
 To be updated.
 | Method                                               | AP@0.3   | AP@0.5   | AP@0.7   | Download Link |
 | ---------------------------------------------------- | -------- | -------- | -------- | ------------- |
-| No Fusion                                            | 40.0     | 29.2     | 11.1     | [url]()       |
-| Late Fusion                                          | 44.5     | 29.2     | 10.8     | [url]()       |
-| Early Fusion                                         | **69.8** | 54.7     | 30.3     | [url]()       |
-| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 62.7     | 51.6     | 32.1     | [url]()       |
-| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 65.9     | 55.8     | 36.1     | [url]()       |
-| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 67.1     | 55.6     | 34.3     | [url]()       |
-| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 67.6     | **57.2** | **36.2** | [url]()       |
+| No Fusion                                            | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link)       |
+| Late Fusion                                          | 44.5     | 29.2     | 10.8     | [url](https://drive.google.com/drive/folders/1mKt7zKoS6KKzEqKWilHuQtpb36PSztxP?usp=drive_link)       |
+| Early Fusion                                         | **69.8** | 54.7     | 30.3     | [url](https://drive.google.com/drive/folders/1Ox0Vdh_LPShyK5uGX9s1FHI8USpITy_l?usp=drive_link)       |
+| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link)       |
+| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 65.9     | 55.8     | 36.1     | [url](https://drive.google.com/drive/folders/1k677v_DTHXf5lMC9DMBeOLHWdEtd3H-e?usp=drive_link)       |
+| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 67.1     | 55.6     | 34.3     | [url](https://drive.google.com/drive/folders/1aKj5A5wTuy2xJQSiErr0qJ6UWOKxJQFX?usp=drive_link)       |
+| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 67.6     | **57.2** | **36.2** | [url](https://drive.google.com/drive/folders/1E8CBXLQmBVnShF2TeyTCkPJN_HBGSyzk?usp=drive_link)       |
 
 ### Results of Cooperative 3D object detection for intersection scenes
 | Method                                               | AP@0.3   | AP@0.5   | AP@0.7   | Download Link |
 | ---------------------------------------------------- | -------- | -------- | -------- | ------------- |
-| No Fusion                                            | 58.1     | 44.1     | 23.8     | [url]()       |
-| Late Fusion                                          | **65.1** | **47.6** | 24.4     | [url]()       |
-| Early Fusion                                         | 50.0     | 33.9     | 18.3     | [url]()       |
-| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 44.0     | 40.0     | 27.0     | [url]()       |
-| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 49.5     | 32.0     | 12.9     | [url]()       |
-| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 50.0     | 42.0     | 30.0     | [url]()       |
-| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 53.1     | 45.3     | **33.0** | [url]()       |
+| No Fusion                                            | 58.1     | 44.1     | 23.8     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
+| Late Fusion                                          | **65.1** | **47.6** | 24.4     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
+| Early Fusion                                         | 50.0     | 33.9     | 18.3     | [url](https://drive.google.com/drive/folders/1u8g_f3vzqWqn_D4Sx_UdwX98Jm1wCul_?usp=drive_link)       |
+| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 44.0     | 40.0     | 27.0     | [url](https://drive.google.com/drive/folders/1W6PeNCnsnUMih1qZP3ONMtwcgDiXzciO?usp=drive_link)       |
+| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 49.5     | 32.0     | 12.9     | [url](https://drive.google.com/drive/folders/1uO7MIHwjXA33CBv861l35IgAL_iMjAon?usp=drive_link)       |
+| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 50.0     | 42.0     | 30.0     | [url](https://drive.google.com/drive/folders/18kcO-G5JHLSj_pd6Gyj5zBYIUK4_fG8k?usp=drive_link)       |
+| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 53.1     | 45.3     | **33.0** | [url](https://drive.google.com/drive/folders/1jA6Y0cqw4G-CNDCIUkl5QhNSt4axmVmC?usp=drive_link)       |
 
 ### Results of Cooperative tracking for corridor scenes
 To be updated.
@@ -102,5 +104,6 @@ To be updated.
 - [V2V4Real](https://github.com/ucla-mobility/V2V4Real)
 - [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
 - [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT)
+- [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD)
 
 Sincere appreciation for their great contributions.
