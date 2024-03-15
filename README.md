@@ -42,31 +42,31 @@ For detection training & inference, you can find instructions in [docs/corridor_
 
 For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
-All the checkpoints are released in link in the tabels below.
+All the checkpoints are released in link in the tabels below, and saved in [codes/ckpts/](codes/ckpts/).
 
 ## Benchmark
 ### Results of Cooperative 3D object detection for corridor scenes
 To be updated.
-| Method                                               | AP@0.3   | AP@0.5   | AP@0.7   | Download Link |
-| ---------------------------------------------------- | -------- | -------- | -------- | ------------- |
-| No Fusion                                            | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link)       |
-| Late Fusion                                          | 44.5     | 29.2     | 10.8     | [url](https://drive.google.com/drive/folders/1mKt7zKoS6KKzEqKWilHuQtpb36PSztxP?usp=drive_link)       |
-| Early Fusion                                         | **69.8** | 54.7     | 30.3     | [url](https://drive.google.com/drive/folders/1Ox0Vdh_LPShyK5uGX9s1FHI8USpITy_l?usp=drive_link)       |
-| [AttFuse](https://arxiv.org/abs/2109.07644) | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link)       |
-| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 65.9     | 55.8     | 36.1     | [url](https://drive.google.com/drive/folders/1k677v_DTHXf5lMC9DMBeOLHWdEtd3H-e?usp=drive_link)       |
-| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 67.1     | 55.6     | 34.3     | [url](https://drive.google.com/drive/folders/1aKj5A5wTuy2xJQSiErr0qJ6UWOKxJQFX?usp=drive_link)       |
-| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 67.6     | **57.2** | **36.2** | [url](https://drive.google.com/drive/folders/1E8CBXLQmBVnShF2TeyTCkPJN_HBGSyzk?usp=drive_link)       |
+| Method                                         | AP@0.3   | AP@0.5   | AP@0.7   | Download Link                                                                                  |
+| ---------------------------------------------- | -------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
+| No Fusion                                      | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link) |
+| Late Fusion                                    | 44.5     | 29.9     | 10.8     | [url](https://drive.google.com/drive/folders/1mKt7zKoS6KKzEqKWilHuQtpb36PSztxP?usp=drive_link) |
+| Early Fusion                                   | **69.8** | 54.7     | 30.3     | [url](https://drive.google.com/drive/folders/1Ox0Vdh_LPShyK5uGX9s1FHI8USpITy_l?usp=drive_link) |
+| [AttFuse](https://arxiv.org/abs/2109.07644)    | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link) |
+| [F-Cooper](https://arxiv.org/abs/1909.06459)   | 65.9     | 55.8     | 36.1     | [url](https://drive.google.com/drive/folders/1k677v_DTHXf5lMC9DMBeOLHWdEtd3H-e?usp=drive_link) |
+| [Where2Comm](https://arxiv.org/abs/2209.12836) | 67.1     | 55.6     | 34.3     | [url](https://drive.google.com/drive/folders/1aKj5A5wTuy2xJQSiErr0qJ6UWOKxJQFX?usp=drive_link) |
+| [CoBEVT](https://arxiv.org/abs/2207.02202)     | 67.6     | **57.2** | **36.2** | [url](https://drive.google.com/drive/folders/1E8CBXLQmBVnShF2TeyTCkPJN_HBGSyzk?usp=drive_link) |
 
 ### Results of Cooperative 3D object detection for intersection scenes
-| Method                                               | AP@0.3   | AP@0.5   | AP@0.7   | Download Link |
-| ---------------------------------------------------- | -------- | -------- | -------- | ------------- |
-| No Fusion                                            | 58.1     | 44.1     | 23.8     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
-| Late Fusion                                          | **65.1** | **47.6** | 24.4     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
-| Early Fusion                                         | 50.0     | 33.9     | 18.3     | [url](https://drive.google.com/drive/folders/1u8g_f3vzqWqn_D4Sx_UdwX98Jm1wCul_?usp=drive_link)       |
-| [AttFuse](https://arxiv.org/abs/2109.07644) | 44.0     | 40.0     | 27.0     | [url](https://drive.google.com/drive/folders/1W6PeNCnsnUMih1qZP3ONMtwcgDiXzciO?usp=drive_link)       |
-| [F-Cooper](https://arxiv.org/abs/1909.06459)         | 49.5     | 32.0     | 12.9     | [url](https://drive.google.com/drive/folders/1uO7MIHwjXA33CBv861l35IgAL_iMjAon?usp=drive_link)       |
-| [Where2Comm](https://arxiv.org/abs/2209.12836)       | 50.0     | 42.0     | 30.0     | [url](https://drive.google.com/drive/folders/18kcO-G5JHLSj_pd6Gyj5zBYIUK4_fG8k?usp=drive_link)       |
-| [CoBEVT](https://arxiv.org/abs/2207.02202)           | 53.1     | 45.3     | **33.0** | [url](https://drive.google.com/drive/folders/1jA6Y0cqw4G-CNDCIUkl5QhNSt4axmVmC?usp=drive_link)       |
+| Method                                         | AP@0.3   | AP@0.5   | AP@0.7   | Download Link                                                                                  |
+| ---------------------------------------------- | -------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
+| No Fusion                                      | 58.1     | 44.1     | 23.8     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link) |
+| Late Fusion                                    | **65.1** | **47.6** | 24.4     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link) |
+| Early Fusion                                   | 50.0     | 33.9     | 18.3     | [url](https://drive.google.com/drive/folders/1u8g_f3vzqWqn_D4Sx_UdwX98Jm1wCul_?usp=drive_link) |
+| [AttFuse](https://arxiv.org/abs/2109.07644)    | 45.5     | 40.9     | 27.9     | [url](https://drive.google.com/drive/folders/1W6PeNCnsnUMih1qZP3ONMtwcgDiXzciO?usp=drive_link) |
+| [F-Cooper](https://arxiv.org/abs/1909.06459)   | 49.5     | 32.0     | 12.9     | [url](https://drive.google.com/drive/folders/1uO7MIHwjXA33CBv861l35IgAL_iMjAon?usp=drive_link) |
+| [Where2Comm](https://arxiv.org/abs/2209.12836) | 50.5     | 42.2     | 29.9     | [url](https://drive.google.com/drive/folders/18kcO-G5JHLSj_pd6Gyj5zBYIUK4_fG8k?usp=drive_link) |
+| [CoBEVT](https://arxiv.org/abs/2207.02202)     | 53.5     | 45.6     | **32.6** | [url](https://drive.google.com/drive/folders/1jA6Y0cqw4G-CNDCIUkl5QhNSt4axmVmC?usp=drive_link) |
 
 ### Results of Cooperative tracking for corridor scenes
 To be updated.
@@ -86,10 +86,10 @@ To be updated.
 | No Fusion    | 18.11     | 39.71     | 58.29     | 49.16     | 35.32     | 41.64     |
 | Late Fusion  | **21.57** | 43.40     | **63.02** | **50.58** | **42.75** | **34.20** |
 | Early Fusion | 21.38     | **47.71** | 62.93     | 50.15     | 36.80     | 42.75     |
-| AttFuse      | 11.82     | 36.59     | 46.70     | 39.38     | 29.00     | 53.90     |
+| AttFuse      | 11.84     | 36.63     | 46.92     | 39.32     | 29.00     | 53.90     |
 | F-Cooper     | -4.86     | 14.71     | 0.00      | -45.66    | 11.52     | 50.56     |
-| Where2Comm   | 14.19     | 38.47     | 51.30     | 42.24     | 29.00     | 45.72     |
-| CoBEVT       | 14.81     | 38.78     | 49.45     | 44.63     | 33.83     | 35.69     |
+| Where2Comm   | 14.21     | 38.48     | 50.97     | 42.27     | 29.00     | 45.72     |
+| CoBEVT       | 14.82     | 38.71     | 49.04     | 44.67     | 33.83     | 35.69     |
 
 ## Citation
 ```shell

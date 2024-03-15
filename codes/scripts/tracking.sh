@@ -1,7 +1,7 @@
 ## Modification part
 
-SCENE="corridor"
-METHOD="no"
+SCENE="intersection"
+METHOD="cobevt"
 NAME="${SCENE}_${METHOD}"
 
 DATA_SOURCE_PATH="path_to_the_converted_DAIR_dataset/${SCENE}"
@@ -33,7 +33,8 @@ mkdir -p $OUTPUT_PATH_DTC
 python ab3dmot_plugin/data_convert/label_det_result2kitti.py \
   --input-dir-path $DET_OUTPUT \
   --output-dir-path $OUTPUT_PATH_DTC \
-  --ori-path $DATA_SOURCE_PATH
+  --ori-path $DATA_SOURCE_PATH \
+  --split-data-path $SPLIT_DATA_PATH
 
 ### Run Tracking
 echo """Run tracking"""
