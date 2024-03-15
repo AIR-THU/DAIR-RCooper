@@ -1,14 +1,13 @@
 # RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)]()
+[![paper](https://img.shields.io/badge/arXiv-Paper-green)]()
 [![supplement](https://img.shields.io/badge/Supplementary-Material-red)]()
+[![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://drive.google.com/drive/folders/1J2nhh41UYp5jugdMT7zpxKr0CRoqpRUJ?usp=drive_link)
 
 This is the official implementation of CVPR2024 paper. "RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception".
-[Ruiyang Hao](https://ry-hao.top/),  [Siqi Fan](https://leofansq.github.io/), [Yingru Dai](https://dblp.org/pid/350/9258.html), [Zhenlin Zhang](https://www.linkedin.com/in/zhenlinzhangtim/), [Chenxi Li](),  [Yuntian Wang](), [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ), [Wenxian Yang](https://scholar.google.com/citations?user=Kiz73xwAAAAJ), [Jirui Yuan](https://air.tsinghua.edu.cn/en/info/1012/1219.htm), [Zaiqing Nie](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)
+[Ruiyang Hao<sup>*</sup>](https://ry-hao.top/),  [Siqi Fan<sup>*</sup>](https://leofansq.github.io/), [Yingru Dai](https://dblp.org/pid/350/9258.html), [Zhenlin Zhang](https://www.linkedin.com/in/zhenlinzhangtim/), [Chenxi Li](),  [Yuntian Wang](), [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ), [Wenxian Yang](https://scholar.google.com/citations?user=Kiz73xwAAAAJ), [Jirui Yuan](https://air.tsinghua.edu.cn/en/info/1012/1219.htm), [Zaiqing Nie<sup>†</sup>](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)
 
-<p style="text-align:center">
-<img src="assets/poster_RCooper.png" width="700" alt="" class="img-responsive">
-</p>
+<img src="assets/RCooper.jpg" width="700" alt="" class="img-responsive" style="text-align:center">
 
 ## Overview
 - [Data Download](#data-download)
@@ -19,7 +18,9 @@ This is the official implementation of CVPR2024 paper. "RCooper: A Real-world La
 - [Acknowledgment](#known-issues)
 
 ## Data Download
-Please check the bottom of this page [website](https://www.t3caic.com/qingzhen/) to download the data.
+Please check the bottom of this page [website](https://www.t3caic.com/qingzhen/) to download the data. As shown in the figure bellow.
+
+<img src="assets/dataset_page_instruction.jpg" width="700" alt="" class="img-responsive" style="text-align:center">
 
 After downloading the data, please put the data in the following structure:
 ```shell
@@ -51,7 +52,7 @@ To be updated.
 | No Fusion                                            | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link)       |
 | Late Fusion                                          | 44.5     | 29.2     | 10.8     | [url](https://drive.google.com/drive/folders/1mKt7zKoS6KKzEqKWilHuQtpb36PSztxP?usp=drive_link)       |
 | Early Fusion                                         | **69.8** | 54.7     | 30.3     | [url](https://drive.google.com/drive/folders/1Ox0Vdh_LPShyK5uGX9s1FHI8USpITy_l?usp=drive_link)       |
-| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link)       |
+| [AttFuse](https://arxiv.org/abs/2109.07644) | 62.7     | 51.6     | 32.1     | [url](https://drive.google.com/drive/folders/1uBTfVMWhbslPzF4f44q36pDHTwEPhoV_?usp=drive_link)       |
 | [F-Cooper](https://arxiv.org/abs/1909.06459)         | 65.9     | 55.8     | 36.1     | [url](https://drive.google.com/drive/folders/1k677v_DTHXf5lMC9DMBeOLHWdEtd3H-e?usp=drive_link)       |
 | [Where2Comm](https://arxiv.org/abs/2209.12836)       | 67.1     | 55.6     | 34.3     | [url](https://drive.google.com/drive/folders/1aKj5A5wTuy2xJQSiErr0qJ6UWOKxJQFX?usp=drive_link)       |
 | [CoBEVT](https://arxiv.org/abs/2207.02202)           | 67.6     | **57.2** | **36.2** | [url](https://drive.google.com/drive/folders/1E8CBXLQmBVnShF2TeyTCkPJN_HBGSyzk?usp=drive_link)       |
@@ -62,7 +63,7 @@ To be updated.
 | No Fusion                                            | 58.1     | 44.1     | 23.8     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
 | Late Fusion                                          | **65.1** | **47.6** | 24.4     | [url](https://drive.google.com/drive/folders/1MMYB9nSBcEprTOIyB3WkJ4nlnUpyEb05?usp=drive_link)       |
 | Early Fusion                                         | 50.0     | 33.9     | 18.3     | [url](https://drive.google.com/drive/folders/1u8g_f3vzqWqn_D4Sx_UdwX98Jm1wCul_?usp=drive_link)       |
-| [Attentive Fusion](https://arxiv.org/abs/2109.07644) | 44.0     | 40.0     | 27.0     | [url](https://drive.google.com/drive/folders/1W6PeNCnsnUMih1qZP3ONMtwcgDiXzciO?usp=drive_link)       |
+| [AttFuse](https://arxiv.org/abs/2109.07644) | 44.0     | 40.0     | 27.0     | [url](https://drive.google.com/drive/folders/1W6PeNCnsnUMih1qZP3ONMtwcgDiXzciO?usp=drive_link)       |
 | [F-Cooper](https://arxiv.org/abs/1909.06459)         | 49.5     | 32.0     | 12.9     | [url](https://drive.google.com/drive/folders/1uO7MIHwjXA33CBv861l35IgAL_iMjAon?usp=drive_link)       |
 | [Where2Comm](https://arxiv.org/abs/2209.12836)       | 50.0     | 42.0     | 30.0     | [url](https://drive.google.com/drive/folders/18kcO-G5JHLSj_pd6Gyj5zBYIUK4_fG8k?usp=drive_link)       |
 | [CoBEVT](https://arxiv.org/abs/2207.02202)           | 53.1     | 45.3     | **33.0** | [url](https://drive.google.com/drive/folders/1jA6Y0cqw4G-CNDCIUkl5QhNSt4axmVmC?usp=drive_link)       |
@@ -102,8 +103,8 @@ To be updated.
 
 ## Acknowledgment
 - [V2V4Real](https://github.com/ucla-mobility/V2V4Real)
-- [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
-- [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT)
 - [OpenCOOD](https://github.com/DerrickXuNu/OpenCOOD)
+- [AB3DMOT](https://github.com/xinshuoweng/AB3DMOT)
+- [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
 
 Sincere appreciation for their great contributions.
