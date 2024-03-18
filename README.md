@@ -41,9 +41,7 @@ After downloading the data, please put the data in the following structure:
 
 ## Quick Start
 
-For detection training & inference, you can find instructions in [docs/corridor_scene](docs/corridor_scene) or [docs/intersection_scene](docs/intersection_scene) in detail.
-
-Notes: you may need to set PYTHONPATH to call modified codes other than the pip installed ones.
+For detection training & inference, you can find instructions in [docs/corridor_scene](docs/corridor_scene) or [docs/intersection_scene](docs/intersection_scene) in detail. (<b>Notes</b>: you may need to set PYTHONPATH to call modified codes other than the pip-installed ones.)
 
 For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
