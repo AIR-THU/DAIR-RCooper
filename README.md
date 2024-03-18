@@ -1,13 +1,14 @@
 # RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green)]()
-[![supplement](https://img.shields.io/badge/Supplementary-Material-red)]()
+[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://drive.google.com/drive/folders/1J2nhh41UYp5jugdMT7zpxKr0CRoqpRUJ?usp=drive_link)
 
 This is the official implementation of CVPR2024 paper. "RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception".
-[Ruiyang Hao<sup>*</sup>](https://ry-hao.top/),  [Siqi Fan<sup>*</sup>](https://leofansq.github.io/), [Yingru Dai](https://dblp.org/pid/350/9258.html), [Zhenlin Zhang](https://www.linkedin.com/in/zhenlinzhangtim/), [Chenxi Li](),  [Yuntian Wang](), [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ), [Wenxian Yang](https://scholar.google.com/citations?user=Kiz73xwAAAAJ), [Jirui Yuan](https://air.tsinghua.edu.cn/en/info/1012/1219.htm), [Zaiqing Nie<sup>†</sup>](https://air.tsinghua.edu.cn/en/info/1046/1192.htm)
+[Ruiyang Hao<sup>*</sup>](https://ry-hao.top/),  [Siqi Fan<sup>*</sup>](https://leofansq.github.io/), [Yingru Dai](https://dblp.org/pid/350/9258.html), [Zhenlin Zhang](https://www.linkedin.com/in/zhenlinzhangtim/), [Chenxi Li](),  [Yuntian Wang](), [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ), [Wenxian Yang](https://scholar.google.com/citations?user=Kiz73xwAAAAJ), [Jirui Yuan](https://air.tsinghua.edu.cn/en/info/1012/1219.htm), [Zaiqing Nie<sup>†</sup>](https://scholar.google.com/citations?user=Qg7T6vUAAAAJ)
 
-<img src="assets/RCooper.jpg" width="700" alt="" class="img-responsive" style="text-align:center">
+<div style="text-align:center">
+<img src="assets/RCooper.jpg" width="800" alt="" class="img-responsive">
+</div>
 
 ## Overview
 - [Data Download](#data-download)
@@ -20,7 +21,9 @@ This is the official implementation of CVPR2024 paper. "RCooper: A Real-world La
 ## Data Download
 Please check the bottom of this page [website](https://www.t3caic.com/qingzhen/) to download the data. As shown in the figure bellow.
 
-<img src="assets/dataset_page_instruction.jpg" width="700" alt="" class="img-responsive" style="text-align:center">
+<div style="text-align:center">
+<img src="assets/dataset_page_instruction.jpg" width="700" alt="" class="img-responsive">
+</div>
 
 After downloading the data, please put the data in the following structure:
 ```shell
@@ -40,13 +43,14 @@ After downloading the data, please put the data in the following structure:
 
 For detection training & inference, you can find instructions in [docs/corridor_scene](docs/corridor_scene) or [docs/intersection_scene](docs/intersection_scene) in detail.
 
+Notes: you may need to set PYTHONPATH to call modified codes other than the pip installed ones.
+
 For Tracking, you can find instructions in [docs/tracking.md](docs/tracking.md) in detail.
 
-All the checkpoints are released in link in the tabels below, and saved in [codes/ckpts/](codes/ckpts/).
+All the checkpoints are released in link in the tabels below, you can save them in [codes/ckpts/](codes/ckpts/).
 
 ## Benchmark
 ### Results of Cooperative 3D object detection for corridor scenes
-To be updated.
 | Method                                         | AP@0.3   | AP@0.5   | AP@0.7   | Download Link                                                                                  |
 | ---------------------------------------------- | -------- | -------- | -------- | ---------------------------------------------------------------------------------------------- |
 | No Fusion                                      | 40.0     | 29.2     | 11.1     | [url](https://drive.google.com/drive/folders/1mmnIf0HDjS_vL1abptXM91pJHE3BLdqT?usp=drive_link) |
@@ -69,7 +73,6 @@ To be updated.
 | [CoBEVT](https://arxiv.org/abs/2207.02202)     | 53.5     | 45.6     | **32.6** | [url](https://drive.google.com/drive/folders/1jA6Y0cqw4G-CNDCIUkl5QhNSt4axmVmC?usp=drive_link) |
 
 ### Results of Cooperative tracking for corridor scenes
-To be updated.
 | Method       | AMOTA(↑)  | AMOTP(↑)  | sAMOTA(↑) | MOTA(↑)   | MT(↑)     | ML(↓)     |
 | ------------ | --------- | --------- | --------- | --------- | --------- | --------- |
 | No Fusion    | 8.28      | 22.74     | 34.05     | 23.89     | 17.34     | 42.71     |
@@ -93,10 +96,10 @@ To be updated.
 
 ## Citation
 ```shell
-@inproceedings{hao2024rcooper,
+@article{hao2024rcooper,
   title={RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception},
   author={Hao, Ruiyang and Fan, Siqi and Dai, Yingru and Zhang, Zhenlin and Li, Chenxi and Wang, Yuntian and Yu, Haibao and Yang, Wenxian and Jirui, Yuan and Nie, Zaiqing},
-  booktitle={The IEEE/CVF Computer Vision and Pattern Recognition Conference (CVPR)},
+  journal={arXiv preprint arXiv:2403.10145},
   year={2024}
 }
 ```
