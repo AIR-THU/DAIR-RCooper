@@ -12,11 +12,10 @@ This is the official implementation of CVPR2024 paper. "RCooper: A Real-world La
 
 ## Overview
 - [Data Download](#data-download)
-- [Devkit Setup](#devkit-setup)
 - [Quick Start](#quick-start)
 - [Benchmark](#benchmark)
 - [Citation](#citation)
-- [Acknowledgment](#known-issues)
+- [Acknowledgment](#acknowledgment)
 
 ## Data Download
 Please check the bottom of this page [website](https://www.t3caic.com/qingzhen/) to download the data. As shown in the figure bellow.
@@ -94,10 +93,10 @@ All the checkpoints are released in link in the tabels below, you can save them 
 
 ## Citation
 ```shell
-@article{hao2024rcooper,
+@inproceedings{hao2024rcooper,
   title={RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception},
   author={Hao, Ruiyang and Fan, Siqi and Dai, Yingru and Zhang, Zhenlin and Li, Chenxi and Wang, Yuntian and Yu, Haibao and Yang, Wenxian and Jirui, Yuan and Nie, Zaiqing},
-  journal={arXiv preprint arXiv:2403.10145},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2024}
 }
 ```
