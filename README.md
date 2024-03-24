@@ -12,6 +12,7 @@ This is the official implementation of CVPR2024 paper. "RCooper: A Real-world La
 
 ## Overview
 - [Data Download](#data-download)
+- [Data Conversion](#data-conversion)
 - [Quick Start](#quick-start)
 - [Benchmark](#benchmark)
 - [Citation](#citation)
@@ -36,6 +37,36 @@ After downloading the data, please put the data in the following structure:
 |      |── folders named specific scene index
 │   ├── original_label
 |      |── folders named specific scene index
+```
+
+## Data Conversion
+
+To facilitate the research of cooperative perception methods on RCooper. We provide the format converter from RCooper to other popular public cooperative perception datasets. After the conversion, researchers can directly employ the methods using several opensourced frameworks.
+
+We now support the following conversions:
+* [DAIR-V2X](https://github.com/AIR-THU/DAIR-V2X)
+* [V2V4Real](https://github.com/ucla-mobility/V2V4Real)
+* [OPV2V](https://github.com/ucla-mobility/OpenCOOD)
+
+### RCooper to V2V4Real
+Setup the dataset path in codes/dataset_convertor/converter_config.py, and complete the conversion.
+```bash
+cd codes/dataset_converter
+python rcooper2vvreal.py
+```
+
+### RCooper to OPV2V
+Setup the dataset path in codes/dataset_convertor/converter_config.py, and complete the conversion.
+```bash
+cd codes/dataset_converter
+python rcooper2opv2v.py
+```
+
+### RCooper to DAIR-V2X
+Setup the dataset path in codes/dataset_convertor/converter_config.py, and complete the conversion.
+```bash
+cd codes/dataset_converter
+python rcooper2dair.py
 ```
 
 ## Quick Start
@@ -92,6 +123,7 @@ All the checkpoints are released in link in the tabels below, you can save them 
 | CoBEVT       | 14.82     | 38.71     | 49.04     | 44.67     | 33.83     | 35.69     |
 
 ## Citation
+If you find RCooper useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 ```shell
 @inproceedings{hao2024rcooper,
   title={RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception},
