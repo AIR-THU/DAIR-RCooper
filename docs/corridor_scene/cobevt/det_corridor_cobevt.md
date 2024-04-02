@@ -5,7 +5,7 @@
 
 To set up environment, you can follow the instructions [here](https://opencood.readthedocs.io/en/latest/md_files/installation.html) to install OpenCOOD. The code is tested on pytorch v1.8.0 and cudatoolkit v11.1.
 
-At the end of Environment setup,
+<b>Notes</b>: Don't run "python setup.py develop" in original opencood. Turn to our /codes/opencood_plugin to install modified opencood.
 ```bash
 cd codes/opencood_plugin
 python setup.py develop
