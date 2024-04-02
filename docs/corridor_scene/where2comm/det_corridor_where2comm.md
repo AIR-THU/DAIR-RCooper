@@ -5,6 +5,12 @@
 
 To set up environment, you can follow the instructions [here](https://opencood.readthedocs.io/en/nost/md_files/installation.html) to install OpenCOOD. The code is tested on pytorch v1.8.0 and cudatoolkit v11.1.
 
+At the end of Environment setup,
+```bash
+cd codes/opencood_plugin
+python setup.py develop
+```
+
 ## Data Preparation
 #### a.Download
 Download RCopper dataset here.
