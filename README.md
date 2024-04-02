@@ -1,6 +1,7 @@
 # RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/abs/2403.10145)
+[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/pdf/2403.10145v2.pdf)
+[![supp](https://img.shields.io/badge/Supp-Material-red)](https://arxiv.org/pdf/2403.10145v2.pdf)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://drive.google.com/drive/folders/1J2nhh41UYp5jugdMT7zpxKr0CRoqpRUJ?usp=drive_link)
 
 This is the official implementation of CVPR2024 paper. "RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception".
