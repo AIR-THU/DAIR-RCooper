@@ -1,8 +1,10 @@
 # RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/pdf/2403.10145v2.pdf)
-[![supp](https://img.shields.io/badge/Supp-Material-red)](https://arxiv.org/pdf/2403.10145v2.pdf)
+[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/pdf/2403.10145.pdf)
+[![supp](https://img.shields.io/badge/Supp-Material-red)](https://arxiv.org/pdf/2403.10145.pdf)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://drive.google.com/drive/folders/1J2nhh41UYp5jugdMT7zpxKr0CRoqpRUJ?usp=drive_link)
+[![video](https://img.shields.io/badge/Youtube-Video-yellow)](https://www.youtube.com/watch?v=6CFi9Bz4wg4)
+[![poster](https://img.shields.io/badge/Poster-Presentation-cyan)](assets/RCooper.jpg)
 
 This is the official implementation of CVPR2024 paper. "RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception".
 [Ruiyang Hao<sup>*</sup>](https://ry-hao.top/),  [Siqi Fan<sup>*</sup>](https://leofansq.github.io/), [Yingru Dai](https://dblp.org/pid/350/9258.html), [Zhenlin Zhang](https://www.linkedin.com/in/zhenlinzhangtim/), [Chenxi Li](),  [Yuntian Wang](), [Haibao Yu](https://scholar.google.com/citations?user=JW4F5HoAAAAJ), [Wenxian Yang](https://scholar.google.com/citations?user=Kiz73xwAAAAJ), [Jirui Yuan](https://air.tsinghua.edu.cn/en/info/1012/1219.htm), [Zaiqing Nie<sup>†</sup>](https://scholar.google.com/citations?user=Qg7T6vUAAAAJ)
