@@ -1,7 +1,8 @@
 # RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-green)](https://arxiv.org/pdf/2403.10145.pdf)
-[![supp](https://img.shields.io/badge/Supp-Material-red)](https://arxiv.org/pdf/2403.10145.pdf)
+[![paper](https://img.shields.io/badge/CVPR-Paper-green)](https://openaccess.thecvf.com/content/CVPR2024/papers/Hao_RCooper_A_Real-world_Large-scale_Dataset_for_Roadside_Cooperative_Perception_CVPR_2024_paper.pdf)
+[![supp](https://img.shields.io/badge/Supp-Material-red)](https://openaccess.thecvf.com/content/CVPR2024/supplemental/Hao_RCooper_A_Real-world_CVPR_2024_supplemental.pdf)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-purple)](http://arxiv.org/abs/2403.10145)
 [![ckpts](https://img.shields.io/badge/ckpts-DOWNLOAD-blue)](https://drive.google.com/drive/folders/1J2nhh41UYp5jugdMT7zpxKr0CRoqpRUJ?usp=drive_link)
 [![video](https://img.shields.io/badge/Youtube-Video-yellow)](https://www.youtube.com/watch?v=6CFi9Bz4wg4)
 [![poster](https://img.shields.io/badge/Poster-Presentation-cyan)](assets/RCooper.jpg)
@@ -132,7 +133,8 @@ If you find RCooper useful in your research or applications, please consider giv
   title={RCooper: A Real-world Large-scale Dataset for Roadside Cooperative Perception},
   author={Hao, Ruiyang and Fan, Siqi and Dai, Yingru and Zhang, Zhenlin and Li, Chenxi and Wang, Yuntian and Yu, Haibao and Yang, Wenxian and Jirui, Yuan and Nie, Zaiqing},
   booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2024}
+  year={2024},
+  pages={22347-22357}
 }
 ```
 
