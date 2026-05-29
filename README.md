@@ -23,7 +23,7 @@ This is the official implementation of CVPR2024 paper. "RCooper: A Real-world La
 - [Acknowledgment](#acknowledgment)
 
 ## Data Download
-Please check the bottom of this page [website](https://www.t3caic.com/qingzhen/) to download the data. As shown in the figure bellow.
+Please check this page [website](https://www.t3caic.com/qingzhen/) to download the data. As shown in the figure bellow.
 
 <div style="text-align:center">
 <img src="assets/dataset_page_instruction.jpg" width="700" alt="" class="img-responsive">
